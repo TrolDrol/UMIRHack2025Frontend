@@ -1,0 +1,56 @@
+nohup: ignoring input
+Starting up http-server, serving build
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: -1 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:8080
+  http://138.124.14.227:8080
+Hit CTRL-C to stop the server
+
+[2025-11-15T11:07:52.282Z]  "GET /" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
+(node:449078) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2025-11-15T12:29:36.157Z]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+[2025-11-15T12:29:39.443Z]  "GET /" "undefined"
+[2025-11-15T12:29:42.743Z]  "GET /v1/models" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+[2025-11-15T12:29:42.747Z]  "GET /v1/models" Error (404): "Not found"
+[2025-11-15T12:29:46.025Z]  "GET /v1/models" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+[2025-11-15T12:29:46.029Z]  "GET /v1/models" Error (404): "Not found"
+[2025-11-15T12:29:49.352Z]  "GET /logo192.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+[2025-11-15T12:29:52.736Z]  "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+[2025-11-15T13:09:19.686Z]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 YaBrowser/25.10.0.0 Safari/537.36"
+[2025-11-15T13:09:19.800Z]  "GET /static/js/main.cf2be606.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 YaBrowser/25.10.0.0 Safari/537.36"
+[2025-11-15T13:09:19.801Z]  "GET /static/css/main.ccd7da4c.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 YaBrowser/25.10.0.0 Safari/537.36"
+[2025-11-15T13:09:19.838Z]  "GET /manifest.json" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 YaBrowser/25.10.0.0 Safari/537.36"
+[2025-11-15T13:09:25.242Z]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:09:25.272Z]  "GET /static/css/main.ccd7da4c.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:09:25.274Z]  "GET /static/js/main.cf2be606.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:10:40.878Z]  "GET /manifest.json" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:10:40.882Z]  "GET /static/css/main.ccd7da4c.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:10:40.913Z]  "GET /static/css/main.ccd7da4c.css.map" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:10:47.178Z]  "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:10:47.246Z]  "GET /static/js/main.cf2be606.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:10:47.267Z]  "GET /static/css/main.ccd7da4c.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:10:47.312Z]  "GET /static/css/main.ccd7da4c.css.map" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0"
+[2025-11-15T13:17:34.947Z]  "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 YaBrowser/25.10.0.0 Safari/537.36"
+[2025-11-15T13:17:34.950Z]  "GET /logo192.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 YaBrowser/25.10.0.0 Safari/537.36"
+[2025-11-15T13:22:49.270Z]  "HEAD /" "curl/8.5.0"
+[2025-11-15T13:23:03.054Z]  "HEAD /login" "curl/8.5.0"
+[2025-11-15T13:23:03.057Z]  "HEAD /login" Error (404): "Not found"
+[2025-11-15T13:23:13.282Z]  "HEAD /index.html" "curl/8.5.0"
+[2025-11-15T13:23:22.774Z]  "GET /index.html" "curl/8.5.0"
+[2025-11-15T13:23:27.651Z]  "GET /" "curl/8.5.0"
+[2025-11-15T13:23:58.591Z]  "GET /" "curl/8.5.0"
+[2025-11-15T13:24:54.380Z]  "HEAD /" "curl/8.5.0"
+http-server stopped.

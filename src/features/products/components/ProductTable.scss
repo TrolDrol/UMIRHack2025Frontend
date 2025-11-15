@@ -1,0 +1,120 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+
+  th {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid var(--border-color);
+    font-weight: 500;
+    color: #7f8c8d;
+    background: #f8f9fa;
+    white-space: nowrap;
+  }
+
+  td {
+    padding: 15px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  tr:hover {
+    background: #f8f9fa;
+  }
+
+  tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+.product-name {
+  .status-inactive {
+    color: var(--danger-color);
+    font-size: 0.8em;
+    margin-left: 8px;
+    font-weight: normal;
+  }
+}
+
+.barcode {
+  font-family: monospace;
+  background: #f8f9fa;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  border: 1px solid #e9ecef;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.btn-edit {
+  background: var(--warning-color);
+  color: white;
+
+  &:hover:not(:disabled) {
+    background: #e67e22;
+  }
+}
+
+.btn-delete {
+  background: var(--danger-color);
+  color: white;
+
+  &:hover:not(:disabled) {
+    background: #c0392b;
+  }
+}
+
+.table-loading,
+.table-empty {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+
+  p {
+    margin: 0;
+  }
+}
+
+.table-empty {
+  p:last-child {
+    margin-top: 8px;
+    font-size: 0.9em;
+    opacity: 0.7;
+  }
+}
+
+// Адаптивность для таблицы
+@media (max-width: 768px) {
+  .products-table {
+    display: block;
+    overflow-x: auto;
+
+    th,
+    td {
+      padding: 10px 8px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .products-table {
+    th,
+    td {
+      padding: 8px 6px;
+      font-size: 0.85rem;
+    }
+  }
+}
